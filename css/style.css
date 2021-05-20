@@ -523,7 +523,13 @@ margin-left: 10px;}
 .about-desc h1 {
   font-size: 38px;
   font-weight: 400;
-font-family: "Montserrat", Georgia, serif;}
+font-family: "Montserrat", Georgia, seri-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (max-width:768px){
+  .about-desc h1{
+    text-align: center;
+  }
+}
 
 .hire {
   padding: 2em;
@@ -540,7 +546,7 @@ font-family: "Montserrat", Georgia, serif;}
 .fancy-collapse-panel .panel-default > .panel-heading {
   padding: 0; }
 
-<!-----projectcss------------>
+<!----projectcss------------>
 #projects {
   padding: 50px 15px;
   border-bottom: 1px solid #dcd9d9;
